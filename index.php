@@ -34,7 +34,7 @@
                                    <link rel="shortcut icon" href="bootstrap/ico/favicon.png">
   </head>
 
-  <body>
+  <body style="background-image: url(data/img/graphpaper.png)">
 
     <div class="navbar navbar-inverse navbar-fixed-top">
       <div class="navbar-inner">
@@ -102,22 +102,6 @@
               <p><a class="btn" href="#">View details &raquo;</a></p>
             </div><!--/span-->
           </div><!--/row-->
-<!--          <div class="row-fluid">
-            <div class="span4">
-              <h2>Heading</h2>
-              <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-              <p><a class="btn" href="#">View details &raquo;</a></p>
-            </div> --> <!--/span-->
-<!--            <div class="span4">
-              <h2>Heading</h2>
-              <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-              <p><a class="btn" href="#">View details &raquo;</a></p>
-            </div>--><!--/span-->
-<!--            <div class="span4">
-              <h2>Heading</h2>
-              <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-              <p><a class="btn" href="#">View details &raquo;</a></p>
-            </div>--><!--/span-->
           </div><!--/row--> 
         </div><!--/span-->
       </div><!--/row--> 
@@ -125,9 +109,11 @@
 
       <hr>
 
-    <div id="footer">
+    <div id="footer" style="background-color: black">
       <div class="container">
-        <p class="muted credit"><img src="bootstrap/img/logo.png" style="height: 24px"> &copy; IOCurve 2012</p>
+        <p class="muted credit" style="text-align: center; vertical-align: bottom; padding-top: 10px">
+		<img src="bootstrap/img/logo.png" style="height: 24px"><br>&copy; IOCurve 2012
+	</p>
       </div>
     </div>
 
